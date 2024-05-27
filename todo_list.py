@@ -1,7 +1,6 @@
 #To_Do_List Project
 tasks =[]
 
-
 def addTask():
     task = input("Please enter a task\n")
     tasks.append(task)
