@@ -17,7 +17,7 @@ def easy_password():
     no_of_letter =int(input("How many letters do you want in your password?\n"))
     no_of_symbol =int(input("How many symbols do you want in your password?\n"))
     no_of_numbers =int(input("How many numbers do you want in your password?\n"))
-    #Easy Password
+     #Easy Password
     password = ""
     for char in range(1, no_of_letter +1):
        #range actually gonna be from 1-4
