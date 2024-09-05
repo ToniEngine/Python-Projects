@@ -22,3 +22,24 @@ if "banana" in list:
     print("Yes it exist")
 else:
     print("Does not exist")
+ #Use Methods for list
+print(len(my_list)) #gives the length of the string
+
+#appends a new item at the end of the list
+my_list.append("lemon") 
+print(my_list)
+
+# To insert a new element in the list using the insert method
+my_list.insert(1, "strawberry")
+print(my_list)
+
+# To remove items can be done with the pop method
+my_list.pop() #This removes the last item on the list  
+print(my_list)
+
+
+# We can pop what we removed into a variable such as
+item_removed = my_list.pop()
+print(item_removed)
+
+
