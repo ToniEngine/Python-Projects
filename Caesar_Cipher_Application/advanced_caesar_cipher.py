@@ -1,10 +1,12 @@
 # message = "Hello, World!"
 # shift = 7
-LAST_CHAR_CODE = 90
-CHAR_RANGE = 26
+FIRST_CHAR_CODE = ord("A")
+LAST_CHAR_CODE = ord("Z")
+CHAR_RANGE = LAST_CHAR_CODE - FIRST_CHAR_CODE  + 1
 
 
 def ceasar_shift(message, shift):
+
     
     result =""
 
@@ -22,4 +24,7 @@ def ceasar_shift(message, shift):
             result += char
 
     print(result)
-ceasar_shift("Hello It Me", 5)
+
+user_message = input("Enter Message to Encrypt ")
+user_shift_key =int(input("Enter Shift Key(Integer: ) "))
+ceasar_shift(user_message, user_shift_key)
