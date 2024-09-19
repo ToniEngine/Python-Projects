@@ -2,7 +2,7 @@
 #                           C(A, B)
 
 
-#Mulit_level Inheritance =   inherits from a parent whivh inherits from another parent
+# Mulit_level Inheritance =   inherits from a parent whivh inherits from another parent
 #                                C(B) <- B(A) <- A
 
 
@@ -28,3 +28,19 @@ hawk = Hawk()
 fish = Fish()
 
 rabbit.flee()
+
+def allow():
+    pass
+
+
+
+
+class Var:
+    pass
+
+if 3>5:
+    pass
+
+char= 8
+for i in char:
+    ...
