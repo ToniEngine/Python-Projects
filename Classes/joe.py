@@ -1,8 +1,8 @@
 name = ''
 while True:
     name = input('Who are you? \n')
-    lower =name.title()
-    if lower != 'joe':
+    
+    if name != 'joe':
         print('Wrong name, try again.')
         continue  # Go back to the beginning of the loop to ask for the name again
 
@@ -18,3 +18,5 @@ while True:
         else:
             print('Error, try again')
     break  # Exit the outer loop once access is granted
+
+
