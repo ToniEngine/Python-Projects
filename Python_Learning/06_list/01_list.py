@@ -93,16 +93,3 @@ print(type(my_man))
 
 
 
-def my_lover():
-    pass
-
-print(type(my_lover))
-
-
-
-
-class Dog:
-    pass 
-
-
-print(type(Dog))
