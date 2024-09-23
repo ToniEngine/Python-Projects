@@ -19,3 +19,4 @@ name, age, attractive = "Anthony Obot", 21, True
 
 spongebob = patrick =sandy = squidward = 30
 
+
