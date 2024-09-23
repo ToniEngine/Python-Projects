@@ -13,7 +13,7 @@ first_name = "Anthony"
 last_name = "Obot"
 full_name= first_name + " " + last_name
 print(type(first_name))
-print(f"Hello ", full_name) #using the f-string
+print(f"Hello ", full_name) # using the f-string
 
 
 
