@@ -16,6 +16,7 @@ def filter_expenses_by_category(expenses, category):
     # lambda expense: expense["category"] == category
     # filter(lambda expense: expense['category'] == category, expenses)
     return filter(lambda expense: expense['category'] == category, expenses)
+
 def main():
     expenses = []
     while True:
