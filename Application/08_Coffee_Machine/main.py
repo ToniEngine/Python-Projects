@@ -24,6 +24,6 @@ while is_on:
           print(f"Milk:{resources['milk']}ml") 
           print(f"Coffee: {resources['coffee']}g") 
           print(f"Money: ${profit} ") 
-        else:
+      else:
            drink = MENU[choice]
              

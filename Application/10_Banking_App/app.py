@@ -15,7 +15,7 @@ def deposit(balance):
         # print(balance)
         print(f"${amount:,.2f} has been successfully added to your account.")
         print(" _____________________________________")
-        print(f" |Curent Balance: ${balance:,.2f}             |")
+        print(f" |Current Balance: ${balance:,.2f}             |")
         print(" |____________________________________|")
         print()
         return balance
@@ -30,18 +30,19 @@ def withdraw(balance):
     print(f"You have successfully withdrawn ${amount:,.2f} and current balance is ${balance:,.2f}")
     return balance
 
-# def transfer(balance):
+def transfer(balance):
     transfer_account_num =""
-    while True:
+    withdrawal = True
+    while withdrawal:
         transfer_account_num = (input("Enter account number "))
         if len(transfer_account_num) != 10:
             print("Invalid account number")
         elif len(transfer_account_num) == 10:
             bank_name = input("Enter Bank Name>> ")
-            withdraw(balance)
-            # return balance
-            # break
-        # return withdraw(balance)
+            withdraw(balance)# Error 1
+            return withdraw(balance) # Error 2
+        quit() # Error 3
+
 
 
 
@@ -68,8 +69,8 @@ while is_running:
         balance = withdraw(balance)
     
     elif choice == "4":
-        print("Use Withdrawal option, Transfer option currently on maintenance")
-        # balance -= transfer(balance)
+        # print("Use Withdrawal option, Transfer option currently on maintenance")
+        balance = transfer(balance)
 
     elif choice== "5":
         is_running = False
