@@ -1,9 +1,9 @@
 name = "Anthony Obot"
-print(len(name))   #Prints the length of a string using the len method
+print(len(name))   # Prints the length of a string using the len method
 
-
-print(name.find("A")) #Prints the postion of the string in the variable, 
-#we were able to find the index of the first character of our name
+ 
+print(name.find("A")) # Prints the postion of the string in the variable, 
+# We were able to find the index of the first character of our name
 
 surname = "obot"
 print(surname.capitalize()) # This method capitalises  the first letter of our surname
@@ -38,6 +38,17 @@ print(address.replace("b", "d"))  # Outputs: nwanida
 
 prayer = "I am a chosen "
 print(prayer *3)
+
+course = 'Python for Beginners'
+print(course.replace("Beginners", "Intermediate"))
+
+# Using the in operator
+print("Python" in course)
+
+# The find method returns the index of that character but the in operator returns a boolean value
+
+name = "fortune richman"
+print(name.title())  # Outputs: Fortune Richman
 
 
 

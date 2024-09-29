@@ -14,3 +14,7 @@ while True:
     else:
         print("Sorry!, Worng Guess") 
         continue       
+
+
+name: str = "Hello Richman"
+

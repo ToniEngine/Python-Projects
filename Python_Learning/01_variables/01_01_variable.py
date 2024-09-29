@@ -1,14 +1,17 @@
-# Variable is a container for a value. It behaves as the value it contains
-x = "Bro"
-y =21
-z = False
+#  Variables are used to temporarily store data in the computer memory
+#  Variable is a container for a value. It behaves as the value it contains
+x = "Bro"   # String Datatype
+y =21       # Integer Datatype
+z = False   # Boolean Datatype
+
 
 # A string is a series of characters
 name = "Anthony Obot"
 print("Hello " + name)
 
-#checking the datatype of a variable using the type function type()
-#strings as a datatype
+# Checking the datatype of a variable using the type function type()
+
+# Strings as a datatype
 first_name = "Anthony"
 last_name = "Obot"
 full_name= first_name + " " + last_name
@@ -28,8 +31,8 @@ print(age)
 height = 250.5
 print(type(height))   #<class "float">
 
-#typecasting coverst the data type of a value to another value
-print("Your age is: " + str(age ))
+#typecasting coverts the data type of a value to another value
+print("Your age is: " + str(age))
 
 print(f"Your age is: ", age)
 print(f"Your Height is ", height ,"cm")
@@ -39,6 +42,16 @@ human = False
 print(human)
 print(type(human)) #<class "bool">
 
+
+
+
+price = 10
+price = 20   # You can reassign a new value to a variable
+print(price)
+
+
+# Note that python is a case sensitive language
+ 
 
 
 

@@ -11,8 +11,10 @@ while True:
     if user_input % 2 != 0:
         print("This is an Odd Number and it is Weird")
     elif user_input >= 2 and user_input <= 5:
+    # elif user_input in range(2,6):
         print("This is even within the range of (2-5) and is Not Weird")
     elif user_input >= 6 and user_input<=20:
         print("This is an even number and is within the range of (6-20) and it is Weird")
     elif user_input > 20:
         print("This is even and it is greater than 20 it is Not Weird")
+
