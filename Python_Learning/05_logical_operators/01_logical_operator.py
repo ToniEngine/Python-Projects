@@ -10,3 +10,4 @@ elif temp <0 or temp > 30: # One of the conditions must be True and the entire s
     print("Stay inside")
 
 
+ 
