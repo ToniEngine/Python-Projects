@@ -1,6 +1,6 @@
 # A while loop is a strucute in python that allows us to loop through and execute a block of code multiple times
 # while condition is True:
-# Do something(Keep Looping Inside the code)
+# Do something(Keep Looping inside the code)
 
 i = 1
 while i<=10:  # Is one less than or equals to 10? True, so pyhton loops through the code
