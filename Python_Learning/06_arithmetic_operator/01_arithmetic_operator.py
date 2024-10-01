@@ -14,7 +14,7 @@ x = 10
 # x = x + 3
 print(x)
 # Using the augmented assignment operator to increment a number
-x =+ 3
+x += 3
 print(x)
 
 # Using the augmented assignment operator to decrement a number

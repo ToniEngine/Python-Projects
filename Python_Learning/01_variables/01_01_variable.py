@@ -53,7 +53,9 @@ print(price)
 # Note that python is a case sensitive language
  
 
-
+#  Complex Numbers
+num = 2 +3j
+print(type(num))
 
 
 
