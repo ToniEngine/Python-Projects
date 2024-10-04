@@ -1,0 +1,7 @@
+*.log
+
+Django_Project/myvenv/
+
+Django_Project/db.sqlite3
+
+
