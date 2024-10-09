@@ -8,6 +8,14 @@ list =[True, 2, 2.5, "Samuel", "Michael", "John", "Michael"]
 print(type(list))  #<class "list">
 print(list)
 
+# We can also check the type of individual elements in a list
+
+print(type(list[6]))
+print(type(list[5]))
+print(type(list[0]))
+print(type(list[1]))
+print(type(list[2]))
+
 # We access elements in the list by indexing and indexing starts from 0
 print(list[3]) #This prints Samuel
 
