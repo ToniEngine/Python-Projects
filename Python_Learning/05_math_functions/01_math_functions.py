@@ -1,4 +1,7 @@
 import math 
+
+
+# To use the math function we have to import the python math module
 x = 2.9
 print(round(x))
 
